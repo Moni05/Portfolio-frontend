@@ -26,7 +26,7 @@ export default function Introduction(){
                                     </a>
                                 </div>
                             </div>
-                            <a href="https://drive.google.com/file/d/1clMFa_Mkom_6JWL2helKC5GdGXAkpX_P/view" target="_blank"><button className="btn highlighted-btn">Get Resume</button></a>
+                            <a href="https://drive.google.com/file/d/1SsIIdNIR0_FRZoSXj35BlTq_Rc2z15Ad/view?usp=sharing" target="_blank"><button className="btn highlighted-btn">Get Resume</button></a>
                         </div>
                     </div>
                     <div className="col-md-6">
