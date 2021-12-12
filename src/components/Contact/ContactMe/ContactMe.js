@@ -11,6 +11,7 @@ export default function ContactMe(){
     const [message, setMessage] = useState("");
     const [banner, setBanner] = useState("");
     const [bool, setBool] = useState(false);
+    const urlpath = process.env.REACT_APP_URL;
   
     const handleName = (e) => {
       setName(e.target.value);
@@ -31,7 +32,7 @@ export default function ContactMe(){
           message,
         };
         setBool(true);
-        const res = await axios.post(`/contact`, data);
+        const res = await axios.post(`${urlpath}contact`, data);
         if (name.length === 0 || email.length === 0 || message.length === 0) {
           setBanner(res.data.msg);
           toast.error(res.data.msg);
