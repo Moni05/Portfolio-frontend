@@ -21,8 +21,8 @@ export default function ProjectItem(){
                                 </div>
                                 <div className="bottom">
                                     <ul>
-                                        <li><a href={d.githubLink} className="portfolio-link"><i className="fa fa-github"></i></a></li>
-                                        <li><a href={d.link} className="portfolio-link"><i className="fa fa-link"></i></a></li>
+                                        <li><a href={d.githubLink} className="portfolio-link" target="_blank"><i className="fa fa-github"></i></a></li>
+                                        <li><a href={d.link} className="portfolio-link" target="_blank"><i className="fa fa-link"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
