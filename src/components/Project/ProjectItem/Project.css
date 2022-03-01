@@ -1,0 +1,129 @@
+.project-card{
+    overflow: hidden;
+    box-shadow: 0 14px 28px 0 rgb(0 0 0 / 30%);
+    background: #BC1A6E;
+    border-radius: 10px;
+}
+
+
+.col-lg-4 {
+    margin-bottom: 26px;
+}
+
+.project-items {
+    background: #011627;
+}
+
+h2.title{
+    color: white;
+    letter-spacing: 2px;
+    font-family: 'KAUSHAN SCRIPT';
+}
+.project-card .top img {
+    width: 100%;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.center {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.project-wrapper.row {
+    padding-bottom: 50px;
+}
+
+.center p {
+    padding: 0px 20px 20px 20px;
+    font-style: oblique;
+    font-weight: 300;
+    color: white;
+    font-size: 1.2em;
+    font-family: 'Lora';
+}
+
+.project-card .top:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+a.portfolio-link {
+    height: 55px;
+    width: 55px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+i {
+    color: black;
+}
+
+.bottom-two {
+    background: purple;
+    font-family: 'Lora';
+    font-style: oblique;
+}
+
+.credential-title {
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Lora';
+    font-style: oblique;
+}
+
+.bottom-two li {
+    font-size: 13px;
+    display: flex;
+}
+
+.bottom-two ul, .credentials {
+    padding-left: 5px;
+}
+
+.stack-title {
+    text-align: center;
+    font-family: 'Lora';
+    font-size: 20px;
+    font-style: oblique;
+}
+
+.user-type {
+    font-family: 'Lora';
+    font-size: 20px;
+    font-style: oblique;
+}
+
+
+.vertical {
+    border-left: 2px solid white;
+    height: 120px;
+    position:absolute;
+    left: 50%;
+}
+
+.bottom-one ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .bottom-one {
+    background: #FFB99F;
+} */
+
+.bottom-one li {
+    margin-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa-github:before, .fa-link:before {
+    font-size: 24px;
+}

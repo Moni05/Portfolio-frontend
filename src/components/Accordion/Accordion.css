@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+    margin: 2rem 0 4rem 0;
+}
+  
+.accordion {
+    max-width: 600px;
+    margin: 2rem auto;
+}
+  
+.accordion-title {
+    display: flex;
+    flex-direction: row;
+    font-size: 22px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: #BC1A6E;
+    font-family: 'Lora';
+    font-style: oblique;
+}
+
+.accordion-expand {
+    font-size: 20px;
+}
+  
+.accordion-title:hover {
+    background-color: #BC1A6E;
+}
+  
+.accordion-content {
+    font-family: 'Lora';
+    font-style: oblique;
+}
+
+.accordion-title,
+.accordion-content {
+    padding: 1rem;
+} 
